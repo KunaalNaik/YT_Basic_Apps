@@ -7,6 +7,9 @@ sel_metric = st.sidebar.selectbox(
     "Choose your metric",
     ("Kgs and Meters", "Pounds and Inches"))
 
+#BMI Logic
+#https://www.spreadsheetconverter.com/examples/health-calculators/body-mass-index-calculator/
+
 if sel_metric == "Kgs and Meters":
     num_height = st.number_input("Your Height (meters)", 1.65)
     num_weight = st.number_input("Your Weight (Kgs)", 68)
