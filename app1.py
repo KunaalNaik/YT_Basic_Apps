@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Basic App")
+st.title("BMI Calculator")
 
 st.sidebar.info("Choose Metric")
 sel_metric = st.sidebar.selectbox(
